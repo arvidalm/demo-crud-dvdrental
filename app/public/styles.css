@@ -1,0 +1,209 @@
+/* Global Styles */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 32, 75);
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Container */
+  .container {
+    width: 800px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  /* Headings */
+  h1,
+  h3 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+
+  /* Labels */
+  label {
+    display: block;
+    color: black;
+    font-size: 24px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Links */
+  a {
+    color: crimson;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  a:hover {
+    color: aquamarine;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  /* Paragraphs */
+  p {
+    color: lightgreen;
+    margin: 0;
+  }
+
+  /* Chat Message Box */
+  .chat-message-box {
+    background-color: #262626;
+    height: 200px;
+    width: 70%;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  /* Chat Message */
+  .chat-message {
+    background-color: #505050;
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  /* Chat Input */
+  .chat-input {
+    height: 50px;
+    width: 60%;
+    font-size: 24px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+.chat-input:hover {
+    background-color:rgb(230, 206, 247);
+}
+
+.chat-button-send {
+    height: 50px;
+    width: 50%;
+    font-size: 24px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+input  {
+    height: 50px;
+    width: 70%;
+    font-size: 24px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color:hwb(120 71% 0%);
+}
+button {
+    height: 50px;
+    width: calc(33vw + 8px);
+    font-size: 24px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.button-delete {
+    height: 50px;
+    width: calc(33vw + 8px);
+    font-size: 24px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: red;
+    color: white;
+}
+
+
+button:hover {
+    background-color: rgb(249, 49, 166);
+}
+
+.name {
+    background-color:lightgreen;
+}
+
+.update-active {
+    display: block;
+}
+
+.update-inactive {
+    display: none;
+}
+
+.search-active {
+    display: block;
+}
+
+.search-inactive {
+    display: none;
+}
+.message-box {
+    background-color:gray;
+    height:500px;
+    width: 600px;
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius:5px;
+}
+
+.message {
+    background-color:lightgreen;
+    height:50px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-controller {
+    margin: 10px 10px 10px 0px;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+}
+
+button {
+    height: 36px;
+    width: 108px;
+}
